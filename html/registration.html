@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISCP Employee Registration Form</title>
+</head>
+
+<body>
+
+    <h1>ISCP Employee Registration Form</h1>
+
+    <!-- ISCP Logo -->
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Seal_of_the_International_State_College_of_the_Philippines.png" alt="ISCP Logo">
+
+    <!-- Embedded Video -->
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aCUhfPAyDHY?si=HXm5oHcv-YzmwsvT"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+    </iframe>
+
+    <!-- Basic Information -->
+    <form>
+        <h2>Basic Information</h2>
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" placeholder="Enter your first name">
+        <br>
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" placeholder="Enter your last name">
+        <br>
+        <label for="place_of_birth">Place of Birth:</label>
+        <input type="text" id="place_of_birth" placeholder="Enter your place of birth">
+        <br>
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate">
+        <br>
+        <label for="civil_status">Civil Status:</label>
+        <select id="civil_status">
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="widowed">Widowed</option>
+            <option value="separated">Separated</option>
+        </select>
+        <br>
+        <label for="gender">Gender:</label>
+        <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <label for="mother_maiden_name">Mother's Maiden Name:</label>
+        <input type="text" id="mother_maiden_name" placeholder="Enter your mother's maiden name">
+        <br>
+        <label for="father_name">Father's Name:</label>
+        <input type="text" id="father_name" placeholder="Enter your father's name">
+        
+        <!-- Contact Information -->
+        <h2>Contact Information</h2>
+        <label for="email_address">Email Address:</label>
+        <input type="email" id="email_address" placeholder="Enter your email address">
+        <br>
+        <label for="contact_number_mobile">Contact Number (Mobile):</label>
+        <input type="tel" id="contact_number_mobile" placeholder="Enter your mobile number">
+        <br>
+        <label for="contact_number_telephone">Contact Number (Telephone):</label>
+        <input type="tel" id="contact_number_telephone" placeholder="Enter your telephone number">
+        
+        <!-- Address -->
+        <h2>Address</h2>
+        <label for="address_street_number">Street Number:</label>
+        <input type="text" id="address_street_number" placeholder="Enter your street number">
+        <br>
+        <label for="address_street_name">Street Name:</label>
+        <input type="text" id="address_street_name" placeholder="Enter your street name">
+        <br>
+        <label for="address_barangay">Barangay:</label>
+        <input type="text" id="address_barangay" placeholder="Enter your barangay">
+        <br>
+        <label for="address_city_town">City/Town:</label>
+        <input type="text" id="address_city_town" placeholder="Enter your city/town">
+        <br>
+        <label for="address_province">Province:</label>
+        <input type="text" id="address_province" placeholder="Enter your province">
+        <br>
+        <label for="address_full">Full Address:</label>
+        <textarea id="address_full" placeholder="Enter your full address"></textarea>
+        
+        <!-- Government Information -->
+        <h2>Government Information</h2>
+        <label for="sss_id">SSS ID:</label>
+        <input type="text" id="sss_id" placeholder="Enter your SSS ID">
+        <br>
+        <label for="pagibig_id">Pag-Ibig ID:</label>
+        <input type="text" id="pagibig_id" placeholder="Enter your Pag-Ibig ID">
+        <br>
+        <label for="philhealth_id">PhilHealth ID:</label>
+        <input type="text" id="philhealth_id" placeholder="Enter your PhilHealth ID">
+        <br>
+        <label for="upload_2x2_picture">Upload 2x2 Picture:</label>
+        <input type="file" id="upload_2x2_picture">
+        <br>
+        <label for="upload_govt_id_picture">Upload Picture of Government ID:</label>
+        <input type="file" id="upload_govt_id_picture">
+        
+        <!-- Account Information -->
+        <h2>Account Information</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter your username">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <br>
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" placeholder="Confirm your password">
+        <br>
+        <label for="upload_profile_image">Upload Profile Image:</label>
+        <input type="file" id="upload_profile_image">
+        
+        <!-- Health Information -->
+        <h2>Health Information</h2>
+        <label for="health_issues">Have you experienced any of the following in the last 30 days?</label><br>
+        <input type="checkbox" id="coughing"> <label for="coughing">Coughing</label><br>
+        <input type="checkbox" id="fever"> <label for="fever">Fever</label><br>
+        <input type="checkbox" id="headache"> <label for="headache">Headache</label><br>
+        <input type="checkbox" id="common_cold"> <label for="common_cold">Common Cold</label><br>
+        <input type="checkbox" id="body_ache"> <label for="body_ache">Body Ache</label><br>
+        <input type="checkbox" id="sore_throat"> <label for="sore_throat">Sore Throat</label><br>
+        <input type="checkbox" id="tiredness"> <label for="tiredness">Tiredness</label><br>
+        <input type="checkbox" id="loss_of_smell"> <label for="loss_of_smell">Loss of Smell</label>
+        <br>
+        <label for="about_yourself">Give a short description about yourself:</label><br>
+        <textarea id="about_yourself" placeholder="Tell us about yourself"></textarea>
+        <br>
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>

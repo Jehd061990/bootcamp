@@ -1,0 +1,208 @@
+body {
+    font-family: Comic Sans MS; 
+    margin:0px; 
+    text-align: center;
+    background-image: url('img/wall-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat-x; 
+}
+
+#overlay{
+    background-color: rgba(0, 0, 0, 0.225);
+    /* width: 60%; */
+    margin: 0 50px ;
+    height: 40%;
+}
+
+#choir-section{
+    width: 150px;
+    height: 150px;
+    /* background-color: red; */
+}
+
+#choir-section img{
+    width: 100%;
+    object-fit: cover; /*to crop the image with div container*/
+    height: 100%;
+    clip-path: circle(); /* to make the image shape into circle, 50% is the default value, lesser than 50% will make the image smaller*/
+}
+
+table {
+    background-color: rgb(70, 130, 180);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+h1{
+    color: rgb(70, 130, 180); 
+    font-size: 50px; 
+    font-weight: normal;
+}
+
+h1:hover{
+    color: black;
+}
+
+.subTitle {
+    line-height: 5px; 
+    font-weight: bold; 
+    font-size: 24px;
+}
+
+.pastorContainer{
+    justify-content: center; 
+    display: flex;
+}
+
+.pastorContainer img{
+    width: 500px
+}
+
+.pastorContainer .pastorWords{
+    text-align: left; 
+    margin-left: 30px; 
+    line-height: normal;
+}
+
+.pastorWords h2{
+    color: rgb(70, 130, 180); 
+    line-height: 10px; 
+    font-weight: bold; 
+    font-size: 40px;
+}
+
+.pastorWords div{
+    line-height: 5px; 
+    font-size: 24px;
+}
+
+.pastorWords a{
+    color: rgb(255, 0, 216);
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: line-through red wavy 1px;
+}
+
+.pastorWords a:visited {
+    color: red;
+}
+
+.pastorWords a:link {
+    color: green;
+}
+
+.pastorWords a:active {
+    color: blue;
+}
+
+.pastorWords a h2{
+    color: rgb(255, 0, 216);
+}
+
+.ministriesContainer{
+    justify-content: center; 
+    display: flex; 
+    align-items: center;
+}
+
+.ministriesContainer img{
+    width: "180px"
+}
+
+.ministriesContainer p{
+    font-size: 34px; 
+    line-height: 0px
+}
+
+/* .ministriesContainer ul{
+    list-style-position: inside; 
+    font-size: 24px;
+}
+
+.ministriesContainer ul li {
+    list-style: inside lower-alpha;
+    list-style-image: url('img/checkmark.png');
+    width: 1px;
+} */
+
+.footer{
+    color: rgb(160, 160, 160);
+}
+
+.footer .links{
+    color: rgb(160, 160, 160);
+}
+
+.footer .links a{
+    color: rgb(160, 160, 160);
+}
+
+.tableTest th, td{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.989);
+}
+
+.tableTest tr:nth-child(even){
+    background-color: aqua;
+}
+
+.tableTest tr:nth-child(ode) {
+    background-color: aqua;
+}
+
+table{
+    color: yellow
+}
+
+
+
+
+
+
+/* sample anwer number 2 */
+/* ul .checklist, ol .checklist{
+    list-style: inside lower-alpha;
+    list-style-image: url('img/checkmark.png');
+}
+
+
+
+
+
+.typed {
+    font-family: 'Courier New', Courier;
+}
+
+
+
+#summary {
+    width: 50%;
+    margin: 0 auto;
+} */

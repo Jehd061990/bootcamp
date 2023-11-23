@@ -1,0 +1,168 @@
+body {
+    font-family: Tahoma;
+    margin: 0px;
+    text-align: center;
+    background-image: url('img/wall-bg.jpg');
+    background-attachment: fixed;
+}
+
+#overlay {
+    margin: 0 50px;
+}
+
+/* table {
+    background-color: rgb(70, 130, 180);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 50px 10px 50px
+} */
+
+table,th,
+td {
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.989); */
+    color: black;
+    border: solid black;
+    border-collapse: collapse;
+    border-style: dotted;
+    border-width: 1px;
+}
+
+table tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+table tr:nth-child(odd) {
+    background-color: white;
+}
+
+table {
+    color: yellow
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* li a:hover {
+    background-color: #111;
+} */
+li:hover{
+    color: rgb(0, 0, 139);
+}
+
+h1 {
+    color: rgb(70, 130, 180);
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.subTitle {
+    line-height: 5px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.pastorContainer {
+    justify-content: center;
+    display: flex;
+}
+
+.pastorContainer img {
+    width: 500px
+}
+
+.pastorContainer .pastorWords {
+    text-align: left;
+    margin-left: 30px;
+    line-height: normal;
+}
+
+.pastorWords h2 {
+    color: rgb(70, 130, 180);
+    line-height: 10px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.pastorWords div {
+    line-height: 5px;
+    font-size: 24px;
+}
+
+.pastorWords a {
+    color: rgb(255, 0, 216);
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.pastorWords a h2 {
+    color: blue;
+}
+
+
+.pastorWords a h2:visited {
+    color: orange;
+}
+
+.pastorWords a h2:hover {
+    color: magenta;
+}
+
+.pastorWords a h2:link {
+    color: blue;
+}
+
+.pastorWords a h2:active {
+    color: lime;
+}
+
+
+.ministriesContainer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.ministriesContainer img {
+    width: "180px"
+}
+
+.ministriesContainer p {
+    font-size: 34px;
+    line-height: 0px
+}
+
+.ministriesContainer ul {
+    list-style-position: inside;
+    font-size: 24px;
+}
+
+.footer {
+    color: rgb(160, 160, 160);
+}
+
+.footer .links {
+    color: rgb(160, 160, 160);
+}
+
+.footer .links a {
+    color: rgb(160, 160, 160);
+}
